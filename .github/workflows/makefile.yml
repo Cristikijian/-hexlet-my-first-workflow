@@ -16,9 +16,6 @@ jobs:
       
     - name: HW
       run: echo 'Hello World'
-    
-    - name: configure
-      run: ./configure
       
     - name: Install dependencies
       run: make
